@@ -1,4 +1,4 @@
-#advent of code day 1 part 1
+#advent of code day 1 part 2
 
 #outputNum = [] of String
 sum = 0
@@ -17,7 +17,7 @@ File.each_line("input") do |line|
   line = line.gsub("eight", "e8t")
   line = line.gsub("nine", "n9e")
   line = line.gsub("zero", "z0o")
-  puts line
+  #puts line
   line.each_char do |char|
     if char.number?
       num1 = char if numCount == 0
@@ -27,7 +27,7 @@ File.each_line("input") do |line|
     end
   end
    outputNum = "%s%s" % [num1, num2]
-   puts outputNum
+   #puts outputNum
    sum += outputNum.to_i
 end
 
