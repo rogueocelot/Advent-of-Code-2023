@@ -3,7 +3,7 @@
 sum = 0
 File.each_line("input") do |line|
   #get the game number part of the line
-  game = line.split(':')[0].split(' ')[1]
+  #game = line.split(':')[0].split(' ')[1]
 
   #seperate the 'hands'
   hands = line.split(/[,;:]/)
