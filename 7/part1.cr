@@ -12,7 +12,7 @@ end
 #four of a kind : 5 points
 #full house: 4 total : 3 for triple, 1 for pair
 #three of a kind : 3 points
-#two paint: 2 total, 1 per pair
+#two pair: 2 total, 1 per pair
 #one pair: 1 point
 #high card: 0 points
 def handPoints(hand)
